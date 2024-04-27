@@ -1,0 +1,52 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name:
+	Template URI:
+	Description:
+	Author: design_grid
+	Author URI:
+	Version: 1.0
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+			[ All Css Plugins & Helper Classes File ]
+-----------------------------------------------------------------*/
+
+/* == fontawesome == */
+@import url("plugins/fontawesome-all.min.css");
+@import url("plugins/all.min.css");
+
+/* == Swiper == */
+@import url("plugins/swiper.min.css");
+
+/* == animatedheadline == */
+@import url("plugins/jquery.animatedheadline.css");
+
+/* == fancybox popup == */
+@import url("plugins/fancybox.css");
+
+/* == magnific popup == */
+@import url("plugins/fjGallery.css");
+
+/* == Helper Class == */
+@import url("global.css");
+
+/*== Google Fonts ==*/
+
+@font-face {
+    font-family: 'LeagueSpartan';
+    src: url('plugins/fonts/LeagueSpartan-Regular.ttf');
+}
+@font-face {
+    font-family: 'Jost';
+    src: url('plugins/fonts/Jost-Regular.ttf');
+}
+@font-face {
+    font-family: 'Syne';
+    src: url('plugins/fonts/Syne-Regular.ttf');
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('plugins/fonts/BebasNeue-Regular.ttf');
+}

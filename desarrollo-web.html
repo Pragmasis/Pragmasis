@@ -1,0 +1,1529 @@
+
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="assets/img/logos/FV.png" sizes="32x32"/>
+    <link rel="icon" href="assets/img/logos/FV.png" sizes="192x192"/>
+
+    <title>Desarrollo Web| Pragmasis</title>
+
+    <link href="assets/css/plugins.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body class="v-dark bg-dots dsn-ajax">
+
+
+<div id="dsn_preloader" class="preloader">
+
+    <div class="dsnload p-absolute">
+        <span class="dsnload__row">
+            <span class="dsnload__img">
+            <img src="assets/img/logo-light.png" class="logo-dark" alt="Blackdsn" decoding="async" loading="lazy"/>
+            <img src="assets/img/logo.png" class="logo-light" alt="Blackdsn" decoding="async" loading="lazy"/>
+            </span>
+        </span>
+        <span class="dsnload__row dsnload__row--sibling">
+            <span class="dsnload__img">
+                 <img src="assets/img/logo-light.png" class="logo-dark" alt="Blackdsn" decoding="async" loading="lazy"/>
+            <img src="assets/img/logo.png" class="logo-light" alt="Blackdsn" decoding="async" loading="lazy"/>
+            </span>
+        </span>
+        <span class="dsnload__row dsnload__row--sibling">
+            <span class="dsnload__img">
+                <img src="assets/img/logo-light.png" class="logo-dark" alt="Blackdsn" decoding="async" loading="lazy"/>
+            <img src="assets/img/logo.png" class="logo-light" alt="Blackdsn" decoding="async" loading="lazy"/>
+            </span>
+        </span>
+        <span class="dsnload__row dsnload__row--sibling">
+            <span class="dsnload__img">
+               <img src="assets/img/logo-light.png" class="logo-dark" alt="Blackdsn" decoding="async" loading="lazy"/>
+            <img src="assets/img/logo.png" class="logo-light" alt="Blackdsn" decoding="async" loading="lazy"/>
+            </span>
+        </span>
+
+
+    </div>
+    <svg width="100%" height="100%" viewBox="0 0 100 100" class="v-middle" preserveAspectRatio="xMinYMin meet"
+         fill="none">
+        <linearGradient id="linearColors" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="var(--theme-color)"></stop>
+            <stop offset="50%" stop-color="var(--border-color)"></stop>
+            <stop offset="100%" stop-color="var(--assistant-color)"></stop>
+        </linearGradient>
+        <path class="dsn-progress-path" d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+    </svg>
+    <div class="loading-circle v-middle">
+        <p class="loading-count v-middle">0</p>
+    </div>
+
+    <span class="loading-text text-uppercase mt-30 dsn-container">Loading ...</span>
+    <div class="bg-load background-section d-flex align-items-end">
+        <svg class="dsn-separator-bottom dsn-icon-assistant-color" width="100%" height="100%" viewBox="0 0 100 10"
+             preserveAspectRatio="none">
+            <path class="path-anim separator__path" data-dsn-to="M 0 0 C 40 0 55 0 100 0 L 0 0 Z"
+                  vector-effect="non-scaling-stroke" d="M 0 0 C 40 16 75 10 100 0 L 0 0 Z"></path>
+        </svg>
+    </div>
+
+</div>
+
+<main id="main_root" class="main-root">
+
+    <!-- ========== Menu ========== -->
+    <header id="site_menu_header" class="site-header  dsn-container d-none dsn-hamburger">
+        <div class="main-logo">
+            <a href="index.html" data-dsn-text="Blackdsn" class="custom-logo-link main-brand effect-ajax" rel="home"
+               aria-current="page">
+                <img src="assets/img/logo-light.png" class="custom-logo logo-light" alt="Blackdsn"/>
+                <img src="assets/img/logo.png" class="custom-logo logo-dark" alt="Blackdsn"/>
+            </a>
+        </div>
+        <nav class="main-navigation ">
+            <div class="menu-cover-title header-container dsn-container">MENU</div>
+            <ul id="dsn-primary-list" class="primary-nav h2">
+                <li class="nav-item has-sub-menu">
+                    <a title="Home" href="#0">
+                        <span class="overflow ">Home</span>
+                    </a>
+                    <ul class="nav-item">
+                        <li class="dsn-back">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px"
+                                         viewBox="0 0 400.004 400.004" xml:space="preserve">
+                                        <g>
+                                            <path
+                                                    d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z"/>
+                                        </g>
+                                    </svg>
+                                    <span class="text-toggle-back">
+                                        <span class="text-name">Home</span>
+                                        <span class="text-back">Back</span>
+                                    </span>
+                                </span>
+                        </li>
+                        <li class="nav-item ">
+                            <a title="Home" href="index.html">
+                                <span class="overflow">Main Demo</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a title="Business" href="business.html" data-dsn-text="Business">
+                                <span class="overflow">Business</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a title="Architecture" href="architecture.html" data-dsn-text="Architecture">
+                                <span class="overflow">Architecture</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a title="Personal" href="personal.html" data-dsn-text="Personal">
+                                <span class="overflow">Personal</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a title="Photographer" href="photographer.html" data-dsn-text="Photographer">
+                                <span class="overflow">Photographer</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a title="Resume" href="resume.html" data-dsn-text="Resume">
+                                <span class="overflow">Resume</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a title="Portfolio" href="metro-portfolio-1.html" data-dsn-text="Our Portfolio">
+                                <span class="overflow">Metro Portfolio 1</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a title="Portfolio" href="metro-portfolio-2.html" data-dsn-text="Our Portfolio">
+                                <span class="overflow">Metro Portfolio 2</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item has-sub-menu">
+                    <a title="Home" href="#0">
+                        <span class="overflow ">Portfolio</span>
+                    </a>
+                    <ul class="nav-item">
+                        <li class="dsn-back">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px"
+                                         viewBox="0 0 400.004 400.004" xml:space="preserve">
+                                        <g>
+                                            <path
+                                                    d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z"/>
+                                        </g>
+                                    </svg>
+                                    <span class="text-toggle-back">
+                                        <span class="text-name">Portfolio</span>
+                                        <span class="text-back">Back</span>
+                                    </span>
+                                </span>
+                        </li>
+                        <li class="nav-item has-sub-menu">
+                            <a title="Carousel" href="#0" data-dsn-text="Business">
+                                <span class="overflow">Carousel</span>
+                            </a>
+                            <ul class="nav-item">
+                                <li class="dsn-back">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px"
+                                         viewBox="0 0 400.004 400.004" xml:space="preserve">
+                                        <g>
+                                            <path
+                                                    d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z"/>
+                                        </g>
+                                    </svg>
+                                    <span class="text-toggle-back">
+                                        <span class="text-name">Carousel</span>
+                                        <span class="text-back">Back</span>
+                                    </span>
+                                </span>
+                                </li>
+                                <li class="nav-item ">
+                                    <a title="Carousel Portfolio 1" href="carousel-portfolio-1.html"
+                                       data-dsn-text="Our Portfolio">
+                                        <span class="overflow">Carousel Portfolio 1</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a title="Carousel Portfolio" href="carousel-portfolio-2.html"
+                                       data-dsn-text="Our Portfolio">
+                                        <span class="overflow">Carousel Portfolio 2</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a title="Carousel Portfolio 3" href="carousel-portfolio-3.html"
+                                       data-dsn-text="Our Portfolio">
+                                        <span class="overflow">Carousel Portfolio 3</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item has-sub-menu">
+                            <a title="Carousel" href="#0" data-dsn-text="Business">
+                                <span class="overflow">Sliders</span>
+                            </a>
+                            <ul class="nav-item">
+                                <li class="dsn-back">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px"
+                                         viewBox="0 0 400.004 400.004" xml:space="preserve">
+                                        <g>
+                                            <path
+                                                    d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z"/>
+                                        </g>
+                                    </svg>
+                                    <span class="text-toggle-back">
+                                        <span class="text-name">Sliders</span>
+                                        <span class="text-back">Back</span>
+                                    </span>
+                                </span>
+                                </li>
+                                <li class="nav-item has-sub-menu">
+                                    <a title="Slider" href="#0" data-dsn-text="Our Portfolio">
+                                        <span class="overflow">Fullscreen</span>
+                                    </a>
+                                    <ul class="nav-item">
+                                        <li class="dsn-back">
+                                            <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px"
+                                         viewBox="0 0 400.004 400.004" xml:space="preserve">
+                                        <g>
+                                            <path d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z"/>
+                                        </g>
+                                    </svg>
+                                    <span class="text-toggle-back">
+                                        <span class="text-name">Fullscreen</span>
+                                        <span class="text-back">Back</span>
+                                    </span>
+                                </span>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a title="Slider" href="fullscreen-distortion-horizontal.html" data-dsn-text="Our Portfolio">
+                                                <span class="overflow">Slider Distortion / H</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+
+                                            <a title="Slider" href="fullscreen-distortion-vertical.html" data-dsn-text="Our Portfolio">
+                                                <span class="overflow">Slider Distortion / V</span>
+                                            </a>
+
+                                        </li>
+                                        <li class="nav-item">
+
+                                            <a title="Slider" href="fullscreen-parallax-horizontal.html" data-dsn-text="Our Portfolio">
+                                                <span class="overflow">Slider Parallax / H</span>
+                                            </a>
+
+                                        </li>
+                                        <li class="nav-item">
+
+                                            <a title="Slider" href="fullscreen-parallax-vertical.html" data-dsn-text="Our Portfolio">
+                                                <span class="overflow">Slider Parallax / V</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item has-sub-menu">
+                                    <a title="Slider" href="#0" data-dsn-text="Our Portfolio">
+                                        <span class="overflow">Padding</span>
+                                    </a>
+                                    <ul class="nav-item">
+                                        <li class="dsn-back">
+                                            <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px"
+                                         viewBox="0 0 400.004 400.004" xml:space="preserve">
+                                        <g>
+                                            <path d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z"/>
+                                        </g>
+                                    </svg>
+                                    <span class="text-toggle-back">
+                                        <span class="text-name">Padding</span>
+                                        <span class="text-back">Back</span>
+                                    </span>
+                                </span>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a title="Slider" href="padding-distortion-horizontal.html" data-dsn-text="Our Portfolio">
+                                                <span class="overflow">Slider Distortion / H</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+
+                                            <a title="Slider" href="padding-distortion-vertical.html" data-dsn-text="Our Portfolio">
+                                                <span class="overflow">Slider Distortion / V</span>
+                                            </a>
+
+                                        </li>
+                                        <li class="nav-item">
+
+                                            <a title="Slider" href="padding-parallax-horizontal.html" data-dsn-text="Our Portfolio">
+                                                <span class="overflow">Slider Parallax / H</span>
+                                            </a>
+
+                                        </li>
+                                        <li class="nav-item">
+
+                                            <a title="Slider" href="padding-parallax-vertical.html" data-dsn-text="Our Portfolio">
+                                                <span class="overflow">Slider Parallax / V</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item has-sub-menu">
+                                    <a title="Slider" href="#0" data-dsn-text="Our Portfolio">
+                                        <span class="overflow">Halfscreen</span>
+                                    </a>
+                                    <ul class="nav-item">
+                                        <li class="dsn-back">
+                                            <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px"
+                                         viewBox="0 0 400.004 400.004" xml:space="preserve">
+                                        <g>
+                                            <path d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z"/>
+                                        </g>
+                                    </svg>
+                                    <span class="text-toggle-back">
+                                        <span class="text-name">Halfscreen</span>
+                                        <span class="text-back">Back</span>
+                                    </span>
+                                </span>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a title="Slider" href="half-distortion-horizontal.html" data-dsn-text="Our Portfolio">
+                                                <span class="overflow">Slider Distortion / H</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+
+                                            <a title="Slider" href="half-distortion-vertical.html" data-dsn-text="Our Portfolio">
+                                                <span class="overflow">Slider Distortion / V</span>
+                                            </a>
+
+                                        </li>
+                                        <li class="nav-item">
+
+                                            <a title="Slider" href="half-parallax-horizontal.html" data-dsn-text="Our Portfolio">
+                                                <span class="overflow">Slider Parallax / H</span>
+                                            </a>
+
+                                        </li>
+                                        <li class="nav-item">
+
+                                            <a title="Slider" href="half-parallax-vertical.html" data-dsn-text="Our Portfolio">
+                                                <span class="overflow">Slider Parallax / V</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+
+                        </li>
+
+                        <li class="nav-item has-sub-menu">
+                            <a title="Card" href="#0" data-dsn-text="Portfolio">
+                                <span class="overflow">Card</span>
+                            </a>
+                            <ul class="nav-item">
+                                <li class="dsn-back">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px"
+                                         viewBox="0 0 400.004 400.004" xml:space="preserve">
+                                        <g>
+                                            <path
+                                                    d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z"/>
+                                        </g>
+                                    </svg>
+                                    <span class="text-toggle-back">
+                                        <span class="text-name">Card</span>
+                                        <span class="text-back">Back</span>
+                                    </span>
+                                </span>
+                                </li>
+                                <li class="nav-item ">
+                                    <a title="work card 1" href="work-card-1.html"
+                                       data-dsn-text="Our Portfolio">
+                                        <span class="overflow">Work Card 1</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a title="work card 2" href="work-card-2.html"
+                                       data-dsn-text="Our Portfolio">
+                                        <span class="overflow">Work Card 2</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item has-sub-menu">
+                            <a title="Card" href="#0" data-dsn-text="Portfolio">
+                                <span class="overflow">Classic</span>
+                            </a>
+                            <ul class="nav-item">
+                                <li class="dsn-back">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px"
+                                         viewBox="0 0 400.004 400.004" xml:space="preserve">
+                                        <g>
+                                            <path
+                                                    d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z"/>
+                                        </g>
+                                    </svg>
+                                    <span class="text-toggle-back">
+                                        <span class="text-name">Classic</span>
+                                        <span class="text-back">Back</span>
+                                    </span>
+                                </span>
+                                </li>
+                                <li class="nav-item ">
+                                    <a title="work classic 1" href="work-classic-1.html"
+                                       data-dsn-text="Our Portfolio">
+                                        <span class="overflow">Work classic 1</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a title="work classic 2" href="work-classic-2.html"
+                                       data-dsn-text="Our Portfolio">
+                                        <span class="overflow">Work classic 2</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item has-sub-menu">
+                            <a title="List" href="#0" data-dsn-text="Portfolio">
+                                <span class="overflow">List</span>
+                            </a>
+                            <ul class="nav-item">
+                                <li class="dsn-back">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px"
+                                         viewBox="0 0 400.004 400.004" xml:space="preserve">
+                                        <g>
+                                            <path
+                                                    d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z"/>
+                                        </g>
+                                    </svg>
+                                    <span class="text-toggle-back">
+                                        <span class="text-name">List</span>
+                                        <span class="text-back">Back</span>
+                                    </span>
+                                </span>
+                                </li>
+                                <li class="nav-item ">
+                                    <a title="work list 1" href="work-list-1.html"
+                                       data-dsn-text="Our Portfolio">
+                                        <span class="overflow">Work List 1</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a title="work list 2" href="work-list-2.html"
+                                       data-dsn-text="Our Portfolio">
+                                        <span class="overflow">Work List 2</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item has-sub-menu">
+                            <a title="Metro" href="#0" data-dsn-text="Portfolio">
+                                <span class="overflow">Metro</span>
+                            </a>
+                            <ul class="nav-item">
+                                <li class="dsn-back">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px"
+                                         viewBox="0 0 400.004 400.004" xml:space="preserve">
+                                        <g>
+                                            <path
+                                                    d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z"/>
+                                        </g>
+                                    </svg>
+                                    <span class="text-toggle-back">
+                                        <span class="text-name">Metro</span>
+                                        <span class="text-back">Back</span>
+                                    </span>
+                                </span>
+                                </li>
+                                <li class="nav-item ">
+                                    <a title="work Metro 1" href="metro-portfolio-1.html"
+                                       data-dsn-text="Our Portfolio">
+                                        <span class="overflow">Work Metro 1</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a title="work Metro 2" href="metro-portfolio-2.html"
+                                       data-dsn-text="Our Portfolio">
+                                        <span class="overflow">Work Metro 2</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item has-sub-menu">
+                    <a title="Home" href="#0">
+                        <span class="overflow ">Works</span>
+                    </a>
+                    <ul class="nav-item">
+                        <li class="dsn-back">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px"
+                                         viewBox="0 0 400.004 400.004" xml:space="preserve">
+                                        <g>
+                                            <path
+                                                    d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z"/>
+                                        </g>
+                                    </svg>
+                                    <span class="text-toggle-back">
+                                        <span class="text-name">Works</span>
+                                        <span class="text-back">Back</span>
+                                    </span>
+                                </span>
+                        </li>
+                        <li class="nav-item ">
+                            <a title="VISIONAID" href="project-1.html" data-dsn-text="VISIONAID">
+                                <span class="overflow">VISIONAID</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a title="MEN FASHION" href="project-2.html" data-dsn-text="MEN FASHION">
+                                <span class="overflow">MEN FASHION</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a title="AUDI RS" href="project-3.html" data-dsn-text="AUDI RS">
+                                <span class="overflow">AUDI RS</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a title="OPEN RUN" href="project-4.html" data-dsn-text="OPEN RUN">
+                                <span class="overflow">OPEN RUN</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a title="DOG CHOW" href="project-5.html" data-dsn-text="DOG CHOW">
+                                <span class="overflow">DOG CHOW</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a title="HEADPHONES" href="project-6.html" data-dsn-text="HEADPHONES">
+                                <span class="overflow">HEADPHONES</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="nav-item has-sub-menu">
+                    <a title="Home" href="#0">
+                        <span class="overflow ">Blog</span>
+                    </a>
+                    <ul class="nav-item">
+                        <li class="dsn-back">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30px"
+                                         viewBox="0 0 400.004 400.004" xml:space="preserve">
+                                        <g>
+                                            <path
+                                                    d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z"/>
+                                        </g>
+                                    </svg>
+                                    <span class="text-toggle-back">
+                                        <span class="text-name">Blog</span>
+                                        <span class="text-back">Back</span>
+                                    </span>
+                                </span>
+                        </li>
+                        <li class="nav-item ">
+                            <a title="Stories" href="stories.html" data-dsn-text="Stories">
+                                <span class="overflow">Stories</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a title="Single Post" href="single-post.html" data-dsn-text="Single Post">
+                                <span class="overflow">Single Post</span>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </li>
+                <li class="nav-item ">
+                    <a title="Service" href="service.html" >
+                        <span class="overflow">Service</span>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a title="Home" href="about-us.html">
+                        <span class="overflow">About</span>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a title="Home" href="contact.html">
+                        <span class="overflow">Contact</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="container-content  d-flex flex-column justify-content-center section-margin">
+                <div class="nav__info">
+                    <div class="nav-content">
+                        <h5 class="sm-title-block mb-10">Studio</h5>
+                        26-30 New Damietta
+                        El-Mahalla El-Kubra, SK1 66LM
+
+                    </div>
+                    <div class="nav-content mt-30">
+                        <h5 class="sm-title-block mb-10">Contact</h5>
+                        <p class="links over-hidden mb-1">
+                            <a class="link-hover d-block" href="tel:00201004392260" data-hover-text="+00 (2)012 3321">+00 (2)01004392260</a>
+                            <a class="link-hover" href="tel:00201024552406" data-hover-text="+00 (2)012 3321">+00 (2)01024552406</a>
+                        </p>
+                        <p class="links over-hidden"><a class="link-hover" href="mailto:info@dsngrid.com"
+                                                        data-hover-text="info@dsngrid.com">info@dsngrid.com</a></p>
+
+                    </div>
+                </div>
+                <div class="nav-social nav-content mt-30">
+                    <div class="nav-social-inner p-relative">
+                        <h5 class="sm-title-block mb-10">Follow us</h5>
+                        <ul style="--dsn-li-name: dsn6;">
+                            <li style="--dsn-li-index: 0;"><a href="#0" target="_blank"
+                                                              rel="nofollow noopener noreferrer">Dribbble.</a></li>
+                            <li style="--dsn-li-index: 1;"><a href="#0" target="_blank"
+                                                              rel="nofollow noopener noreferrer">Behance.</a></li>
+                            <li style="--dsn-li-index: 2;"><a href="#0" target="_blank"
+                                                              rel="nofollow noopener noreferrer">Linkedin.</a></li>
+                            <li style="--dsn-li-index: 3;"><a href="#0" target="_blank"
+                                                              rel="nofollow noopener noreferrer">Twitter.</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="navbar_toggle" class="navbar-toggle">
+            <div class="toggle-icon">
+                <div class="toggle-line"></div>
+                <div class="toggle-line"></div>
+                <div class="toggle-line"></div>
+            </div>
+            <div class="toggle-text">
+                <div class="text-menu">Menu</div>
+                <div class="text-open">Open</div>
+                <div class="text-close">Close</div>
+            </div>
+        </div>
+        <div class="bg-load background-main"></div>
+
+        <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none"
+             class="bg-load dsn-svg-transition">
+            <path vector-effect="non-scaling-stroke" d="M 0 100 V 100 Q 50 100 100 100 V 100 z"/>
+        </svg>
+
+    </header>
+    <!-- ========== End Menu ========== -->
+
+        <!-- ========== Header  ========== -->
+        <header id="dsn_header" class="dsn-header-animation  show-box-shadow dsn-container section-padding v-dark-head">
+            <div class="entry-header p-relative over-hidden">
+                <div id="hero_image "
+                     class="p-absolute dsn-hero-parallax-img over-hidden before-z-index z-index-1 full-width"
+                     data-dsn-ajax="img" data-overlay="4">
+                    <img src="assets/img/banner/cohete-volando-espacio.png"
+                         class="cover-bg-img transform-3d " alt=""
+                         data-dsn-position="50% 50%"
+                         sizes="(max-width: 2560px) 100vw, 2560px"/>
+                </div>
+                <div id="hero_content" class="d-flex p-relative h-100 dsn-hero-parallax-title align-items-end container">
+                    <div class="content p-relative ">
+                        <div class="intro-project w-100">
+                            <div class="intro-title ">
+                                <div id="hero_title">
+                                    <h1 class="title" data-dsn-ajax="title">Desarrollo Web</h1>
+                                </div>
+                                <p class="mt-20 max-w570">
+                                    Somos Expertos en desarrollo de páginas web.
+                                </p>
+                                <div class="dsn-def-btn dsn-hover-icon dsn-icon-heading-color mt-20 d-flex">
+                                    <a class="dsn-btn dsn-border border-color-default  background-section effect-ajax has-icon-left"
+                                       href="contact.html" data-dsn-text="Contact Us">
+                                        <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
+                                            <i class="fas fa-angle-right" aria-hidden="true"></i>
+                                        </span>
+                                        <span class="title-btn p-relative  z-index-1 ">Get Started Now</span>
+                                    </a>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+            <a href="#page_wrapper" rel="nofollow" class="dsn-scroll-bottom"
+               data-dsn-option='{"ease": "power4.inOut" , "duration" : 1.5}'>
+                <div class="text">SCROLL</div>
+            </a>
+        </header>
+        <!-- ========== End Header  ========== -->
+
+        <!-- ==========  According ========== -->
+        <div class="container section-margin d-grid grid-md-2 p-relative section-padding background-section " data-dsn-gap="30px 120px">
+            <div class="box-left p-relative  pinned-scroll" data-dsn-option='{"end":"250"}'>
+                <div class="section-title  pinned-element">
+                    <h2 class="title-h2 text-upper">Conoce los beneficios de tener una <b>página web</b></h2>
+                    <p class="max-w570 mt-20">
+                        Founded in 2000, Dsn Grid has become one of the best Digital Agency in ThemeForest. Blue money
+                        going forward, but deploy to production.
+                    </p>
+                </div>
+            </div>
+            <div class="box-right">
+                <div class="dsn-accordion" role="tablist">
+                    <div class="accordion__wrapper">
+
+                        <div class="accordion__item  active">
+                            <div class="accordion__question user-no-selection expanded d-flex align-items-center  ">
+                                <span class="number background-theme h6">1</span>
+                                <h6 class="sm-title-block tab-title heading-color" role="tab" data-tab="0">Aumenta tus ventas</h6>
+                            </div>
+                            <div class="accordion__answer tab-description active " role="tabpanel" data-tab="0">
+                                <p>Cepteur sint occaecat cupidatat proident, taken possession of my entire soul, like
+                                    these sweet mornings of spring which I enjoy with my whole.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion__item  ">
+                            <div class="accordion__question user-no-selection  d-flex align-items-center  ">
+                                <span class="number background-theme h6">2</span>
+                                <h6 class="sm-title-block tab-title heading-color" role="tab" data-tab="1">Profesionaliza tu presentación</h6>
+                            </div>
+                            <div class="accordion__answer tab-description  " role="tabpanel" data-tab="1">
+                                <p>Cepteur sint occaecat cupidatat proident, taken possession of my entire soul, like
+                                    these sweet mornings of spring which I enjoy with my whole.</p></div>
+                        </div>
+
+
+                        <div class="accordion__item  ">
+                            <div class="accordion__question user-no-selection  d-flex align-items-center  ">
+                                <span class="number background-theme h6">3</span>
+                                <h6 class="sm-title-block tab-title heading-color" role="tab" data-tab="2">Posicionamiento</h6>
+                            </div>
+                            <div class="accordion__answer tab-description  " role="tabpanel" data-tab="2">
+                                <p>Cepteur sint occaecat cupidatat proident, taken possession of my entire soul, like
+                                    these sweet mornings of spring which I enjoy with my whole.</p></div>
+                        </div>
+
+                        <div class="accordion__item  ">
+                            <div class="accordion__question user-no-selection  d-flex align-items-center  ">
+                                <span class="number background-theme h6">3</span>
+                                <h6 class="sm-title-block tab-title heading-color" role="tab" data-tab="2">Confianza y seguridad corporativa</h6>
+                            </div>
+                            <div class="accordion__answer tab-description  " role="tabpanel" data-tab="2">
+                                <p>Cepteur sint occaecat cupidatat proident, taken possession of my entire soul, like
+                                    these sweet mornings of spring which I enjoy with my whole.</p></div>
+                        </div>
+
+
+                        <div class="accordion__item  ">
+                            <div class="accordion__question user-no-selection  d-flex align-items-center  ">
+                                <span class="number background-theme h6">3</span>
+                                <h6 class="sm-title-block tab-title heading-color" role="tab" data-tab="2">Desarrollo de negocios</h6>
+                            </div>
+                            <div class="accordion__answer tab-description  " role="tabpanel" data-tab="2">
+                                <p>Cepteur sint occaecat cupidatat proident, taken possession of my entire soul, like
+                                    these sweet mornings of spring which I enjoy with my whole.</p></div>
+                        </div>
+
+                        <div class="accordion__item  ">
+                            <div class="accordion__question user-no-selection  d-flex align-items-center  ">
+                                <span class="number background-theme h6">3</span>
+                                <h6 class="sm-title-block tab-title heading-color" role="tab" data-tab="2">Rompe Nichos</h6>
+                            </div>
+                            <div class="accordion__answer tab-description  " role="tabpanel" data-tab="2">
+                                <p>Cepteur sint occaecat cupidatat proident, taken possession of my entire soul, like
+                                    these sweet mornings of spring which I enjoy with my whole.</p></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ========== End According ========== -->
+
+
+                <!-- ========== Service ========== -->
+                <div class="container section-margin">
+                    <div class="section-title d-flex justify-content-center  mb-70">
+                        <div class="sub-section-title text-center">
+                            <p class="description d-inline-block  circle-before mb-10">Paquetes</p>
+                            <h2 class="title-h2 dsn-heading-title p-relative title-block-lg d-block    heading-color">
+                                Conoce nuestros<b> Precios</b> 
+                            </h2>
+                            <p class="max-w750 mt-20" style="text-transform: none;">
+                                En nuestra agencia, comprendemos la importancia de una sólida presencia en línea. Ofrecemos servicios de desarrollo web de alta calidad, con precios competitivos y opciones personalizadas para adaptarse a tus necesidades. Cada proyecto es único, contáctanos para obtener un presupuesto y consulta gratuitos. Estamos listos para ayudarte a destacar en el mundo digital. ¡Contacta con nosotros y comencemos!                
+                            </p>
+                        </div>
+                    </div>
+                    <div class="list-with-number icon-top dsn-icon-theme-color text-left">
+                        <div class="dsn-service d-grid grid-lg-3 grid-sm-2" data-dsn-iconsize="80px">
+        
+                            <div class="dsn-up service-item p-relative grid-item style-box">
+                                <div class="service-item-inner border-style number-item h-100">
+                                    <div class="service-content p-relative">
+                                        <h4 class="service_title  title-block">Landing Pages</h4>
+                                        <div class="award-item"> Desde
+                                            <h5 class="font-number dsn-animate-number">$
+                                                <span class="">2,900.0</span>
+                                            </h5> MXN / Pago único
+                                        </div>
+                                        <div class="service_description mt-10 max-w570 dsn-auto box-right">
+                                           <div class="dsn-accordion" role="tablist">
+                                                <div class="accordion__wrapper">
+                                                    <p class="max-w750 mt-20 justify-content-center" style="text-transform: none;">
+                                                        Perfecto para emprendedores y empresas que desean una solución económica para promocionar su negocio, producto o servicio. Una landing page consiste en una sola sección o pestaña, también llamada página de aterrizaje o de una sola tira.   
+                                                    </p>
+                                                    <div class="accordion__item  active mt-20">
+                                                        <div class="accordion__question user-no-selection expanded d-flex align-items-center  ">
+                                                            
+                                                            <h6 class="sm-title-block tab-title heading-color" role="tab" data-tab="0">¿Qué incluye?</h6>
+                                                        </div>
+                                                        <div class="accordion__answer tab-description active " role="tabpanel" data-tab="0">
+                                                            <p class="text-left">
+                                                                <strong> / </strong> Proyectos personalizados, posicionados que venden.
+                                                            </p>
+                                                            <p class="text-left">
+                                                                <strong style="color: var( --dsn-color-icon);"> / </strong> Diseño personalizado a tu medida.
+                                                            </p>
+                                                            <p class="text-left">
+                                                                <strong style="color: var( --dsn-color-icon);"> / </strong> Registro de un nombre de dominio .com por un año
+                                                            </p>
+                                                            <p class="text-left">
+                                                                <strong style="color: var( --dsn-color-icon);"> / </strong> Chat de WhatsApp y/o Facebook Messenger
+                                                            </p>
+                                                            <p class="text-left">
+                                                                <strong style="color: var( --dsn-color-icon);"> / </strong> Diseño responsivo para tabletas y celulares.
+                                                            </p>
+                                                            <p class="text-left">
+                                                                <strong style="color: var( --dsn-color-icon);"> / </strong> Redacción apta para tu nicho o mercado
+                                                            </p>
+                                                            <p class="text-left">
+                                                                <strong style="color: var( --dsn-color-icon);"> / </strong> 3 cuentas de correos corporativos.
+                                                            </p>
+                                                            <p class="text-left">
+                                                                <strong style="color: var( --dsn-color-icon);"> / </strong> Certificado de seguridad SSL por un año
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="accordion__item  ">
+                                                        <div class="accordion__question user-no-selection  d-flex align-items-center  ">
+                                                            
+                                                            <h6 class="sm-title-block tab-title heading-color" role="tab" data-tab="1">Ver más</h6>
+                                                        </div>
+                                                        <div class="accordion__answer tab-description text-left " role="tabpanel" data-tab="1">
+                                                            <p class="text-left">
+                                                                <strong style="color: var( --dsn-color-icon);"> / </strong> Integración de mapa de ubicación.
+                                                            </p>
+                                                            <p class="text-left">
+                                                                <strong style="color: var( --dsn-color-icon);"> / </strong> Posicionamiento en buscadores. ($500 Adicionales al mes)
+                                                            </p>
+                                                        </div>
+                                                    </div>  
+                                                </div>
+                                            </div>    
+                                        </div>
+                                    </div>
+                                    <div class="dsn-icon-heading-color dsn-def-btn d-flex justify-content-center mt-30">
+                                        <a class="dsn-btn dsn-border border-color-default  background-section  effect-ajax has-icon-left"
+                                           href="contact.html" data-dsn-text="START A PROJECT">
+                                        <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
+                                            <i class="fas fa-fire" aria-hidden="true"></i>
+                                        </span>
+                                            <span class="title-btn p-relative  z-index-1 " style="font-size: 16px;">Me interesa</span>
+                                        </a>
+                                    </div>                
+                                </div>
+                            </div>
+        
+                            <div class="dsn-up service-item p-relative grid-item style-box">
+                                <div class="service-item-inner border-style number-item h-100">
+                                    <div class="service-content p-relative">
+                                        <h4 class="service_title  title-block">Investigación y planificación</h4>
+                                        <div class="service_description mt-10 max-w570 dsn-auto">
+                                            <p>
+                                                Investigamos a tu público objetivo, la competencia y las tendencias del mercado. Esto te ayudará a determinar qué contenido y características deben incluirse en el sitio web.
+                                            </p>
+                                        </div>
+        
+        
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="dsn-up service-item p-relative grid-item style-box">
+                                <div class="service-item-inner border-style number-item h-100">
+                                    <div class="service-content p-relative">
+                                        <h4 class="service_title  title-block">Elección del dominio y hosting</h4>
+                                        <div class="service_description mt-10 max-w570 dsn-auto">
+                                            <p>
+                                               Seleccionamos un nombre de dominio relevante y fácil de recordar que se ajuste a la identidad de tu marca. Además, elegimos un servicio de hosting confiable para alojar tu sitio web.
+                                            </p>
+                                        </div>
+        
+        
+                                    </div>
+                                </div>
+                            </div>
+        
+        
+                            <div class="dsn-up service-item p-relative grid-item style-box">
+                                <div class="service-item-inner border-style number-item h-100">
+                                    <div class="service-content p-relative">
+                                        <h4 class="service_title  title-block">Diseño y desarrollo</h4>
+                                        <div class="service_description mt-10 max-w570 dsn-auto">
+                                            <p>
+                                                Creamos el diseño visual de la web, después desarrollamos la funcionalidad. Esto incluye la elección de colores, tipografía, imágenes, elección de tecnología y más.
+                                            </p>
+                                        </div>
+        
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dsn-up service-item p-relative grid-item style-box">
+                                <div class="service-item-inner border-style number-item h-100">
+                                    <div class="service-content p-relative">
+                                        <h4 class="service_title  title-block">Creación de contenido</h4>
+                                        <div class="service_description mt-10 max-w570 dsn-auto">
+                                            <p>
+                                                Desarrollamos el contenido para tu sitio web. Esto puede incluir textos, imágenes, videos, gráficos y otros elementos multimedia.
+                                            </p>
+                                        </div>
+        
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dsn-up service-item p-relative grid-item style-box">
+                                <div class="service-item-inner border-style number-item h-100">
+                                    <div class="service-content p-relative">
+                                        <h4 class="service_title  title-block">Optimización para SEO</h4>
+                                        <div class="service_description mt-10 max-w570 dsn-auto">
+                                            <p>
+                                                Aplicamos prácticas de SEO on-page, para ayudarte a mejorar la visibilidad del sitio web y de tu marca en los motores de búsqueda.
+                                            </p>
+                                        </div>
+        
+        
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="dsn-up service-item p-relative grid-item style-box">
+                                <div class="service-item-inner border-style number-item h-100">
+                                    <div class="service-content p-relative">
+                                        <h4 class="service_title  title-block">Pruebas y control de calidad</h4>
+                                        <div class="service_description mt-10 max-w570 dsn-auto">
+                                            <p>
+                                                Realizamos pruebas exhaustivas para asegurarte de que el sitio web funcione correctamente en diferentes navegadores y dispositivos                                    </p>
+                                        </div>
+        
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dsn-up service-item p-relative grid-item style-box">
+                                <div class="service-item-inner border-style number-item h-100">
+                                    <div class="service-content p-relative">
+                                        <h4 class="service_title  title-block">Lanzamiento</h4>
+                                        <div class="service_description mt-10 max-w570 dsn-auto">
+                                            <p>
+                                                Una vez que el sitio web ha pasado las pruebas y está listo para su publicación, configuramos el dominio y el hosting para realizar el lanzamiento oficial                                    </p>
+                                        </div>
+        
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dsn-up service-item p-relative grid-item style-box">
+                                <div class="service-item-inner border-style number-item h-100">
+                                    <div class="service-content p-relative">
+                                        <h4 class="service_title  title-block">Mantenimiento continuo</h4>
+                                        <div class="service_description mt-10 max-w570 dsn-auto">
+                                            <p>
+                                                Todo sitio necesita actualizaciones para mantenerse fresco y funcional, ya sea contenido, corrección de errores, seguridad y métricas elegidas estratégicamente                                    </p>
+                                        </div>
+        
+        
+                                    </div>
+                                </div>
+                            </div>
+        
+        
+                        </div>
+                    </div>
+        
+                </div>
+                <!-- ========== End Service ========== -->
+
+    <div id="page_wrapper" class="wrapper">
+
+        <!-- ========== Info Service ========== -->
+        <div class="pt-section mb-section background-section">
+            <div class="container">
+                <div class="d-grid grid-md-2" data-dsn-gap="30px 60px">
+                    <div class="left">
+                        <h2 class="title-h2 text-upper">QUÉ HACEMOS EN NUESTRA AGENCIA
+                            <b>DE DESARROLLO WEB </b></h2>
+
+                        <p class="mt-20">
+                            En nuestra agencia creativa, nos encargamos de todo el proceso para que tu página web sea top-notch y convierta al máximo.
+                        </p>
+                    </div>
+                    <div class="right align-self-end">
+                        <p>Con nuestra experiencia en marketing y comunicación, diseñamos webs personalizadas que reflejan tu marca y funcionan en todos los dispositivos.
+                        </p>
+                        <p class="mt-20">Trabajamos contigo, adaptando un plan con pasos claros y plazos definidos. Además, ofrecemos servicios adicionales como redacción persuasiva, lanzamientos web, rebranding y SEO para impulsar tu éxito en línea. ¡Contáctanos y construyamos juntos una web exitosa!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-relative box-img">
+                <div class="p-relative container d-grid grid-1-half mt-50 z-index-2">
+                    <img src="assets/img/s1.jpg" alt="">
+                    <img class="d-sm-none" src="assets/img/s2.jpg" alt="">
+                </div>
+                <div class="dsn-bg-mask background-main h-50 bottom-0 z-index-1"></div>
+            </div>
+        </div>
+        <!-- ========== End Info Service ========== -->
+
+        <!-- ========== Service ========== -->
+        <div class="container section-margin">
+            <div class="section-title d-flex justify-content-center  mb-70">
+                <div class="sub-section-title text-center">
+                    <p class="description d-inline-block  circle-before mb-10">Pragmasis</p>
+                    <h2 class="title-h2 dsn-heading-title p-relative title-block-lg d-block    heading-color">
+                        Conoce nuestro<b> Proceso</b>
+                    </h2>
+                    <p class="max-w750 mt-20" style="text-transform: none;">
+                        Destacamos la importancia de un sitio web de calidad para impulsar tus resultados comerciales. Ofrecemos desarrollo web integral y personalizado, priorizando la atracción y conversión de clientes. Potencia tu presencia y ventas con nosotros.
+        
+                    </p>
+                </div>
+            </div>
+            <div class="list-with-number icon-top dsn-icon-theme-color text-center">
+                <div class="dsn-service d-grid grid-lg-3 grid-sm-2" data-dsn-iconsize="80px">
+
+                    <div class="dsn-up service-item p-relative grid-item style-box">
+                        <div class="service-item-inner border-style number-item h-100">
+                            <div class="service-content p-relative">
+                                <h4 class="service_title  title-block">Propósito y objetivos</h4>
+                                <div class="service_description mt-10 max-w570 dsn-auto">
+                                    <p>
+                                        Antes de comenzar a diseñar o desarrollar la web, es crucial entender por qué se está creando y qué se espera lograr. Definimos claramente el propósito del sitio web y establecemos objetivos específicos.
+                                    </p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dsn-up service-item p-relative grid-item style-box">
+                        <div class="service-item-inner border-style number-item h-100">
+                            <div class="service-content p-relative">
+                                <h4 class="service_title  title-block">Investigación y planificación</h4>
+                                <div class="service_description mt-10 max-w570 dsn-auto">
+                                    <p>
+                                        Investigamos a tu público objetivo, la competencia y las tendencias del mercado. Esto te ayudará a determinar qué contenido y características deben incluirse en el sitio web.
+                                    </p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dsn-up service-item p-relative grid-item style-box">
+                        <div class="service-item-inner border-style number-item h-100">
+                            <div class="service-content p-relative">
+                                <h4 class="service_title  title-block">Elección del dominio y hosting</h4>
+                                <div class="service_description mt-10 max-w570 dsn-auto">
+                                    <p>
+                                       Seleccionamos un nombre de dominio relevante y fácil de recordar que se ajuste a la identidad de tu marca. Además, elegimos un servicio de hosting confiable para alojar tu sitio web.
+                                    </p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="dsn-up service-item p-relative grid-item style-box">
+                        <div class="service-item-inner border-style number-item h-100">
+                            <div class="service-content p-relative">
+                                <h4 class="service_title  title-block">Diseño y desarrollo</h4>
+                                <div class="service_description mt-10 max-w570 dsn-auto">
+                                    <p>
+                                        Creamos el diseño visual de la web, después desarrollamos la funcionalidad. Esto incluye la elección de colores, tipografía, imágenes, elección de tecnología y más.
+                                    </p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dsn-up service-item p-relative grid-item style-box">
+                        <div class="service-item-inner border-style number-item h-100">
+                            <div class="service-content p-relative">
+                                <h4 class="service_title  title-block">Creación de contenido</h4>
+                                <div class="service_description mt-10 max-w570 dsn-auto">
+                                    <p>
+                                        Desarrollamos el contenido para tu sitio web. Esto puede incluir textos, imágenes, videos, gráficos y otros elementos multimedia.
+                                    </p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dsn-up service-item p-relative grid-item style-box">
+                        <div class="service-item-inner border-style number-item h-100">
+                            <div class="service-content p-relative">
+                                <h4 class="service_title  title-block">Optimización para SEO</h4>
+                                <div class="service_description mt-10 max-w570 dsn-auto">
+                                    <p>
+                                        Aplicamos prácticas de SEO on-page, para ayudarte a mejorar la visibilidad del sitio web y de tu marca en los motores de búsqueda.
+                                    </p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dsn-up service-item p-relative grid-item style-box">
+                        <div class="service-item-inner border-style number-item h-100">
+                            <div class="service-content p-relative">
+                                <h4 class="service_title  title-block">Pruebas y control de calidad</h4>
+                                <div class="service_description mt-10 max-w570 dsn-auto">
+                                    <p>
+                                        Realizamos pruebas exhaustivas para asegurarte de que el sitio web funcione correctamente en diferentes navegadores y dispositivos                                    </p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dsn-up service-item p-relative grid-item style-box">
+                        <div class="service-item-inner border-style number-item h-100">
+                            <div class="service-content p-relative">
+                                <h4 class="service_title  title-block">Lanzamiento</h4>
+                                <div class="service_description mt-10 max-w570 dsn-auto">
+                                    <p>
+                                        Una vez que el sitio web ha pasado las pruebas y está listo para su publicación, configuramos el dominio y el hosting para realizar el lanzamiento oficial                                    </p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dsn-up service-item p-relative grid-item style-box">
+                        <div class="service-item-inner border-style number-item h-100">
+                            <div class="service-content p-relative">
+                                <h4 class="service_title  title-block">Mantenimiento continuo</h4>
+                                <div class="service_description mt-10 max-w570 dsn-auto">
+                                    <p>
+                                        Todo sitio necesita actualizaciones para mantenerse fresco y funcional, ya sea contenido, corrección de errores, seguridad y métricas elegidas estratégicamente                                    </p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+        <!-- ========== End Service ========== -->
+
+        <!-- ========== Info Service ========== -->
+        <div class="pt-section mb-section background-section">
+            <div class="container">
+                <div class="d-grid grid-md-2" data-dsn-gap="30px 60px">
+                    <div class="left">
+                        <h2 class="title-h2 text-upper">Trabajamos con una
+                            <b>filosofía </b> profesional</h2>
+
+                        <p class="mt-20">
+                            En nuestra agencia de desarrollo web, nos guía una firme búsqueda de la excelencia y la innovación. Creemos que cada sitio web representa una oportunidad única para narrar una historia, impulsar un negocio o conectar con una audiencia. Nuestra pasión radica en fusionar la creatividad con la tecnología, dando vida a experiencias web excepcionales.                        </p>
+                    </div>
+                    <div class="right align-self-end">
+                        <p>
+                            Priorizamos la comprensión profunda de las necesidades y metas de nuestros clientes, colaborando estrechamente con ellos para convertir sus visiones en soluciones web efectivas y atractivas. Valoramos la precisión, la usabilidad y el rendimiento, garantizando que cada sitio que diseñamos sea funcional, atractivo y optimizado para los motores de búsqueda.                         </p>
+                        <p class="mt-20">
+                            Nuestra satisfacción proviene de mantenernos al tanto de las últimas tendencias y tecnologías del desarrollo web, lo que nos permite ofrecer soluciones modernas y de alta calidad. Impulsados por nuestro compromiso con la satisfacción del cliente, la ética y la transparencia, nos esforzamos por superar las expectativas en cada proyecto que emprendemos.                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-relative box-img">
+                <div class="p-relative container d-grid grid-1-half mt-50 z-index-2">
+                    <img src="assets/img/s1.jpg" alt="">
+                    <img class="d-sm-none" src="assets/img/s2.jpg" alt="">
+                </div>
+                <div class="dsn-bg-mask background-main h-50 bottom-0 z-index-1"></div>
+            </div>
+        </div>
+        <!-- ========== End Info Service ========== -->
+
+        <!-- ========== About Section One ========== -->
+        <section class="about-section about-one p-relative section-margin">
+            <div class="p-relative container">
+                <div class="bg-mask background-section w-70 h-55 v-middle"></div>
+                <div class="d-grid grid-md-2 p-relative z-index-1">
+                    <div class="box-info">
+                        <h2 class="title body-font " style="font-family: 'Bebas Neue';">
+                            <span class="letter-stroke d-block"
+                                  data-dsn-animation='{"from":{"paddingLeft":"10%"},"to":{"paddingLeft":"20%"},"responsive":["tablet","desktop"]}'>
+                                Confía en
+                            </span>
+                            <span class="fw-600">nosotros para</span>
+                            <span class="text-right w-100">Tu Web</span>
+                        </h2>
+                        <div class="d-grid grid-md-2 align-items-center mt-10">
+                            <div class="dsn-def-btn dsn-icon-heading-color d-flex">
+                                <div class="dsn-def-btn dsn-hover-icon ">
+                                    <a class="dsn-btn background-main effect-ajax has-icon-left"
+                                       href="https://dsngrid.com/blackdsn/about-us/" data-dsn-text="About Us"
+                                       data-dsn="parallax">
+                            <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
+                                <i class="fas fa-envelope-open"></i>
+                            </span>
+                                        <span class="title-btn p-relative  z-index-1 heading-color">INICIA AHORA</span>
+                                    </a>
+                                </div>
+                            </div>
+                          </div>
+
+
+                    </div>
+                    <div class="box-img">
+                        <img decoding="async" class="cover-bg-img" src="assets/img/photo-4.jpg" title="" alt="">
+                    </div>
+                </div>
+                <div class="p-relative box-img-bottom hv-50">
+                    <img class="cover-bg-img" decoding="async" src="assets/img/photo-5.jpg" title="" alt="">
+                </div>
+            </div>
+
+
+        </section>
+        <!-- ========== End About Section One ========== -->
+
+    <!-- ========== Header ========== -->
+    <header class="p-relative p-60 background-section">
+        <div class="hero-content text-center">
+            <div class="dsn-icon-i">                                        
+                <?xml version="1.0" encoding="utf-8"?>
+                <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                <svg width="800px" height="800px" viewBox="0 0 1024 1024" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" style="--dsn-color-icon : var(--heading-color)" d="M579.3 245c-27.6-18.8-47.5-38.7-60.1-53.2-12.6 14.5-32.6 34.3-60.3 53.2-51.7 35.2-110.9 54.6-176.4 57.9v232.9c0 8.5 1.1 18.4 3.4 29.4 0 0 28.5 179.4 233.3 272.1 0 0 148.7-56.3 214-214 15.2-34.7 22.4-65.8 22.4-87.5V302.9c-65.5-3.3-124.7-22.7-176.3-57.9z" fill="#FFFFFF" />
+                <path d="M618.8 500.7l44.5-95.4H600l-44.5 95.4zM422.2 405.3l-44.5 95.4H441l44.5-95.4zM574.4 405.3h-63.3l-44.5 95.4h63.3zM299.3 405.3v95.4h52.8l44.5-95.4zM738.9 500.7v-95.4h-50l-44.5 95.4z" fill="#E6E6E6" />
+                <path d="M519.1 837.3c-80.4-34.8-138.6-91.1-177.2-147.5-20.9-7-41-14.5-60.2-22.2 8.1 15.2 17.2 30.4 27.3 45 35.7 51.9 99.7 122.6 201.8 164.5 2.7 1.1 5.5 1.7 8.3 1.7 2.8 0 5.6-0.5 8.3-1.6 74.3-30.6 128.4-76.3 166.1-119-16.7-0.8-33.9-2.1-51.4-3.8-33.1 32.4-73.9 61.7-123 82.9zM891.3 553.2c-7.4-6.6-15.9-13.3-25.5-19.9-19.5-13.7-43.2-27.4-70.3-40.6V285.5c0-12.2-9.8-22.1-21.8-22.1-64.5-0.3-122.3-17.6-171.9-51.4-38.5-26.2-59.2-53.9-64.7-61.8-4.1-5.9-10.8-9.5-18-9.5-7.1 0-13.9 3.5-18 9.4-5.5 7.9-26.3 35.6-64.8 61.8-49.7 33.8-107.6 51.1-172 51.4-12 0.1-21.8 10-21.8 22.1V378c-12.4 0.8-24.1 1.9-35.1 3.4-24.7 3.3-45.7 8.3-62.8 14.9-29 11.3-45.9 27.1-50.3 47-4.2 19 3.6 39.4 23 60.8l0.1 0.1c0.4 0.4 0.7 0.8 1.1 1.2 18.1 19.4 45.5 39.2 81.5 58.9 2.4 1.3 4.9 2.7 7.4 4 13.4 7.1 27.8 14.1 42.9 20.8 4.4 16.6 10.6 33.9 18.3 51.4 17.8 7.7 36.6 15.1 56.3 22.2-10.6-18.4-19.2-36.5-25.8-53.5 55.3 21.1 117.9 39.7 183.8 54.3 74 16.4 146.4 26.4 211.1 29.5-10.1 14.5-21.4 28.9-34.1 42.9 17.1 1.4 33.8 2.4 49.9 2.9 7.2-9.1 13.6-17.9 19.3-26.2 4.2-6.1 8.2-12.3 12.1-18.6 13.9-0.1 27.2-0.5 40.1-1.4 33.5-2.2 61.9-6.9 84.6-14 5-1.6 9.7-3.2 14.1-5 8.7-3.5 16.3-7.5 22.7-11.8-3.3-5.6-7.5-11-12.1-16.1-6.6 4.4-14.9 8.3-24.7 11.7-21.7 7.6-50.9 12.9-85.9 15.2-8.7 0.6-17.7 1-27 1.2 26.8-48.8 42.6-99.1 42.6-138.1V515c28 14.2 51.8 28.8 70.3 43.1 4.4 3.4 8.4 6.7 12.2 10.1 16.3 14.5 34.8 35.8 30.6 55-0.7 3-1.9 5.8-3.6 8.6 5.1 5.5 9.4 11 12.8 16.4 5.2-6.3 8.6-13.2 10.3-20.7 5-23-7.4-48-36.9-74.3z m-681.7-6.6c-0.7-0.4-1.5-0.8-2.2-1.2-33.9-18.7-59.6-37.7-75.5-55.3-0.1 0-0.1 0.1-0.2 0.1-6.3-6.4-10.4-13.4-11.9-16.1-5.6-9.7-7.8-18.6-6-26.6 4.8-21.9 39-38.3 93.6-46 10.9-1.5 22.6-2.7 35.1-3.5v137.8c0 9 0.9 18.7 2.5 28.8-12.4-5.9-24.3-11.9-35.4-18z m546-10.8c0 31.7-15.5 83.9-48.8 137.7-66.4-2.3-142-12.4-219.5-29.6-71.3-15.8-138.6-36.2-196.6-59.5-5.5-18.8-8.2-35.5-8.2-48.6V302.9c65.5-3.3 124.7-22.7 176.4-57.9 27.7-18.8 47.6-38.7 60.3-53.2 12.6 14.5 32.5 34.3 60.1 53.2 51.6 35.2 110.8 54.6 176.3 57.9v232.9z" fill="#005BFF" />
+                <path d="M242.2 443.2c-40.1 2.5-73 8.7-97.6 18.3-9.6 3.7-17.9 8-24.8 12.7 3 5.2 7.1 10.5 12.1 16.1 21.2-14 59.5-23.5 110.3-26.9v-20.2z" fill="#06F3FF" />
+                <path d="M119.7 474.1c1.5 2.7 5.7 9.7 11.9 16.1 0.1 0 0.1-0.1 0.2-0.1-4.9-5.5-9-10.8-12.1-16 0.1 0 0.1 0 0 0zM917.8 648.2c-3.5-5.4-7.8-10.9-12.8-16.4-4.1-4.4-8.6-8.9-13.7-13.4-22.8-20.3-56.1-41.2-97-61.1-0.4 2.7-2.2 14.7-3.4 20.7 36.8 18.3 66.6 37.2 87.1 55.4 4.2 3.7 8.5 7.9 12.5 12.3 4.6 5 8.8 10.5 12.1 16.1 5.1 8.7 7.9 17.9 6 26.6-5.8 26.1-53.9 44.6-128.6 49.5-21.8 1.4-45.4 1.7-70.2 0.9-16.1-0.5-32.8-1.5-49.9-2.9-54.2-4.5-112.8-13.5-172.6-26.8-57.7-12.8-112.7-28.6-162.3-46.5-19.7-7.1-38.5-14.5-56.3-22.2-21.2-9.2-41-18.8-59-28.6-65.7-35.9-101.5-73-95.8-99.1 0.7-3 1.9-5.9 3.6-8.6l-0.1-0.1c-0.9-0.9-6.6-6.7-12.8-16.3-5.2 6.3-8.6 13.2-10.3 20.7-4.3 19.4 3.9 40.3 24.3 62.1 18.1 19.4 45.5 39.2 81.5 58.9 24.4 13.3 51.9 26.2 81.8 38.2 19.1 7.7 39.2 15.1 60.2 22.2 44 14.8 91.5 28 140.9 38.9 54.8 12.1 108.7 20.8 159.2 25.7 17.6 1.7 34.8 3 51.4 3.8 14.7 0.7 28.9 1.1 42.7 1.1 15.6 0 30.7-0.5 45-1.4 40.9-2.7 74.1-9.1 98.7-19 27.7-11.2 43.9-26.7 48.2-46.1 3.1-14.2-0.4-29.1-10.4-44.6z" fill="#06F3FF" />
+                <path d="M117.4 504.1s-0.1 0-0.1-0.1c0 0 0.1 0 0.1 0.1z" fill="#06F3FF" />
+                </svg>
+            </div>
+            <h1 class="title-head mt-20 text-upper">¿QUIERES QUE DISEÑEMOS <br>
+                LA MEJOR WEB
+                PARA TU MARCA?</h1>
+            <p class="max-w750 mt-20">
+                Destacamos la importancia de un sitio web de calidad para impulsar tus resultados comerciales. Ofrecemos desarrollo web integral y personalizado, priorizando la atracción y conversión de clientes. Potencia tu presencia y ventas con nosotros.
+
+            </p>
+            <div class="dsn-icon-heading-color dsn-def-btn d-flex justify-content-center mt-30">
+                <a class="dsn-btn dsn-border border-color-default  background-main  effect-ajax has-icon-left"
+                   href="contact.html" data-dsn-text="START A PROJECT" >
+                <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
+                    <i class="fas fa-envelope-open" aria-hidden="true"></i>
+                </span>
+                    <span class="title-btn p-relative  z-index-1 "> <b>INICIA TU SITIO WEB</b></span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- ========== End Header ========== -->
+
+        <!-- ========== Footer ========== -->
+        <footer id="dsn_footer" class="dsn-footer p-relative footer-animate svg-animate background-main">
+            <svg class="dsn-separator dsn-separator-up  dsn-icon-assistant-color" width="100%" height="100%"
+                 viewBox="0 0 100 10" preserveAspectRatio="none">
+                <path class="path-anim separator__path" data-dsn-to="M 0 0 C 40 0 55 0 100 0 L 0 0 Z"
+                      vector-effect="non-scaling-stroke" d="M 0 0 C 40 16 75 10 100 0 L 0 0 Z"></path>
+            </svg>
+            <div class="footer-content p-relative mt-section">
+
+                <div class="text-center container">
+                    <h2 class="title-h2 ">
+                        LET'S BUILD SOMETHING
+                        <span class="d-block"><b><i>AMAZING </i></b>TOGETHER</span>
+                    </h2>
+                    <div class="dsn-icon-heading-color dsn-def-btn d-flex justify-content-center mt-30">
+                        <a class="dsn-btn dsn-border border-color-default  background-section  effect-ajax has-icon-left"
+                           href="contact.html" data-dsn-text="START A PROJECT">
+                        <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
+                            <i class="fas fa-angle-right" aria-hidden="true"></i>
+                        </span>
+                            <span class="title-btn p-relative  z-index-1 ">START A PROJECT</span>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="dsn-container pt-60">
+                    <div class="d-grid grid-lg-4 grid-md-2 ">
+                        <div class="grid-col-1">
+                            <div class="dsn-logo main-logo">
+                                <div class="main-logo">
+                                    <a href="https://dsngrid.com/blackdsn/" data-dsn-text="Blackdsn"
+                                       class="custom-logo-link main-brand effect-ajax" rel="home">
+                                        <img class="custom-logo logo-light" src="assets/img/logo-light.png"
+                                             alt="Blackdsn"/>
+                                        <img class="custom-logo logo-dark" src="assets/img/logo.png"
+                                             alt="Blackdsn"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <ul class="dsn-socials box-social mt-20 dsn-icon-heading-color">
+                                <li><a href="#0" target="_blank" rel="nofollow"
+                                       class="init-color move-circle border-color-default" data-dsn="parallax"><span
+                                        class="dsn-icon"><i class="fab fa-facebook-f"></i></span><span>FB</span></a>
+                                </li>
+                                <li><a href="#0" target="_blank" rel="nofollow"
+                                       class="init-color move-circle border-color-default" data-dsn="parallax"><span
+                                        class="dsn-icon"><i class="fab fa-twitter"></i></span><span>TW</span></a>
+                                </li>
+                                <li><a href="#0" target="_blank" rel="nofollow"
+                                       class="init-color move-circle border-color-default" data-dsn="parallax"><span
+                                        class="dsn-icon"><i
+                                        class="fab fa-linkedin-in"></i></span><span>LN</span></a></li>
+                                <li><a href="#0" target="_blank" rel="nofollow"
+                                       class="init-color move-circle border-color-default" data-dsn="parallax"><span
+                                        class="dsn-icon"><i class="fab fa-instagram"></i></span><span>IN</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid-col-2">
+                            <h4 class="subtitle p-relative line-shape  line-shape-after "><span
+                                    class="background-revere ">NAVIGATION</span>
+                            </h4>
+                            <div class="menu-footer-menu-container">
+                                <ul id="menu-footer-menu" class="menu">
+                                    <li class="menu-item">
+                                        <a href="home.html" class="effect-ajax">HOME</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="work-classic-2.html" class="effect-ajax">PORTFOLIO</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="stories.html" class="effect-ajax">NEWS</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="about-us.html" class="effect-ajax">ABOUT</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="contact.html" class="effect-ajax">CONTACT</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="grid-col-3">
+                            <h4 class="subtitle p-relative line-shape  line-shape-after "><span
+                                    class="background-revere ">CONTACT</span>
+                            </h4>
+
+                            <div class="col-contact">
+                                <p><strong>T</strong> : +001 225 3351</p>
+                                <p class="mt-10"><strong>F</strong> :+001 225 3351</p>
+                                <p class="over-hidden mt-10">
+                                    <strong>E</strong> : <a class="link-hover" href="#"
+                                                            data-hover-text="info@dsngrid.com">info@dsngrid.com</a>
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="grid-col-4">
+                            <h4 class="subtitle p-relative line-shape  line-shape-after "><span
+                                    class="background-revere ">ADDRESS</span>
+                            </h4>
+                            <div class="col-address">
+                                <p>
+                                    El-Mahalla El-Kubra 37<br> 1776 Damietta<br>Egypt
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom mt-60 pt-30 border-top pb-30 text-center">
+                        <p class="over-hidden">
+                            © 2022 Digital Agency Designed by
+                            <a href="#0" class="link-hover" data-hover-text="DSN Grid" target="_blank">DSN Grid</a>
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </footer>
+        <!-- ========== End Footer ========== -->
+
+    </div>
+
+
+</main>
+
+<!-- ========== Cursor ========== -->
+<div id="dsn_cursor" class="ball"></div>
+<div id="dsn_cursor_inner" class="ball"></div>
+<!-- ========== End Cursor ========== -->
+
+
+<!-- ==========  Social ========== -->
+<div class="social-side d-flex align-items-center flex-column justify-content-center">
+
+    <ul class="socials d-flex flex-column-reverse">
+        <li style="--dsn-index-animate : 0;">
+            <a href="#0" target="_blank" rel="nofollow">
+                <i class="fab fa-facebook-f" aria-hidden="true"></i> <span>Fb</span>
+            </a>
+        </li>
+        <li style="--dsn-index-animate : 1;">
+            <a href="#0" target="_blank" rel="nofollow">
+                <i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span>
+            </a>
+        </li>
+        <li style="--dsn-index-animate : 2;">
+            <a href="#0" target="_blank" rel="nofollow">
+                <i class="fab fa-twitter" aria-hidden="true"></i><span>Tw</span>
+            </a>
+        </li>
+        <li style="--dsn-index-animate : 3;">
+            <a href="#0" target="_blank" rel="nofollow">
+                <i class="fab fa-linkedin-in" aria-hidden="true"></i><span>Linkedin</span>
+            </a>
+        </li>
+    </ul>
+    <div class="icon">FOLLOW US</div>
+</div>
+<!-- ========== End Social ========== -->
+
+<!-- ========== Style Option Page ========== -->
+<div id="dsn_box_options" class="day-night">
+    <div class="night active" data-dsn-theme="dark">
+        <svg width="48" height="48" viewBox="0 0 48 48">
+            <rect x="12.3" y="23.5" width="2.6" height="1"></rect>
+            <rect x="16.1" y="15.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -6.8871 16.5732)" width="1"
+                  height="2.6"></rect>
+            <rect x="23.5" y="12.3" width="1" height="2.6"></rect>
+            <rect x="30.1" y="16.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.5145 27.0538)" width="2.6"
+                  height="1"></rect>
+            <rect x="33.1" y="23.5" width="2.6" height="1"></rect>
+            <rect x="30.9" y="30.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -12.9952 31.4264)" width="1"
+                  height="2.6"></rect>
+            <rect x="23.5" y="33.1" width="1" height="2.6"></rect>
+            <rect x="15.3" y="30.9" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -17.3677 20.9457)" width="2.6"
+                  height="1"></rect>
+            <path
+                    d="M24,18.7c-2.9,0-5.3,2.4-5.3,5.3s2.4,5.3,5.3,5.3s5.3-2.4,5.3-5.3S26.9,18.7,24,18.7z M24,28.3c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3s4.3,1.9,4.3,4.3S26.4,28.3,24,28.3z">
+            </path>
+        </svg>
+
+    </div>
+    <div class="moon" data-dsn-theme="night">
+        <svg width="48" height="48" viewBox="0 0 48 48">
+            <path
+                    d="M24,33.9c-5.4,0-9.9-4.4-9.9-9.9c0-4.3,2.7-8,6.8-9.4l0.8-0.3l-0.1,0.9c-0.2,0.6-0.2,1.3-0.2,1.9c0,5.2,4.3,9.5,9.5,9.5c0.6,0,1.3-0.1,1.9-0.2l0.8-0.2L33.3,27C32,31.1,28.3,33.9,24,33.9z M20.4,15.9c-3.2,1.4-5.3,4.5-5.3,8.1c0,4.9,4,8.9,8.9,8.9c3.6,0,6.7-2.1,8.1-5.3c-0.4,0-0.8,0.1-1.3,0.1c-5.8,0-10.5-4.7-10.5-10.5C20.4,16.7,20.4,16.3,20.4,15.9z">
+            </path>
+        </svg>
+    </div>
+</div>
+<!-- ========== End Style Option Page ========== -->
+
+<!-- ========== Line BG ========== -->
+<div id="line_head"><span class="container"></span></div>
+<!-- ========== End Line BG ========== -->
+
+<script src="assets/js/jquery-3.1.1.min.js"></script>
+<script src="assets/js/plugins.min.js"></script>
+<script src="assets/js/plugins/dsn-grid.min.js"></script>
+<script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
